@@ -1,0 +1,37 @@
+reddit:
+  client_id: "YOUR_REDDIT_CLIENT_ID"
+  client_secret: "YOUR_REDDIT_CLIENT_SECRET"
+  user_agent: "reddit-to-video-mvp/1.0 by YOUR_USERNAME"
+  subreddit: "confessions"
+  listing: "top"
+  time_filter: "day"
+  fetch_limit: 30
+  min_chars: 350
+  max_chars: 3500
+  allow_nsfw: false
+
+tts:
+  voice: "en-US-JennyNeural"
+  rate: "+0%"
+  volume: "+0%"
+
+subtitles:
+  model_size: "base"
+  language: "en"
+  words_per_chunk: 4
+  max_chars_per_line: 40
+  font_size: 58
+  bottom_margin: 320
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  hook_seconds: 4
+  fade_in_seconds: 0.25
+  fade_out_seconds: 0.25
+
+paths:
+  backgrounds_dir: "assets/backgrounds"
+  output_dir: "output"
+  temp_dir: "temp"

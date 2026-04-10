@@ -1,0 +1,6 @@
+praw
+edge-tts
+faster-whisper
+moviepy
+PyYAML
+tenacity
